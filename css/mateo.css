@@ -1,0 +1,25 @@
+.block-blue{
+    background-color: lightblue;
+}
+
+.block-brown{
+    background-color: burlywood;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    aspect-ratio: 1;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
