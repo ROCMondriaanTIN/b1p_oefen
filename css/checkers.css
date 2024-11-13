@@ -1,0 +1,23 @@
+main{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1.5fr;
+}
+
+
+.board{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.block{
+    border: 1px black solid;
+    aspect-ratio: 1;
+}
+
+.white{
+    background-color: white;
+}
+
+.black{
+    background-color: black;
+}
