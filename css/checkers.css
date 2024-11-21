@@ -12,6 +12,7 @@ main{
 .block{
     border: 1px black solid;
     aspect-ratio: 1;
+    padding: 10px;
 }
 
 .white{
@@ -20,4 +21,25 @@ main{
 
 .black{
     background-color: black;
+}
+
+.piece{
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+
+.border-white{
+    border: 1px solid white;
+}
+
+.border-black{
+    border: 1px solid black;
+}
+
+.shadow-black{
+    box-shadow: 2px 5px black;
+}
+
+.shadow-white{
+    box-shadow: 2px 5px white;
 }
