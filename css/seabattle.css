@@ -1,0 +1,33 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 4fr 1fr;
+}
+
+.board-player{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.board-computer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.block{
+    border: 1px solid black;
+    aspect-ratio: 1;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.red{
+    background-color: red;
+}
+
+.ship{
+    background-image: url('/img/ship.jpg');
+    background-position: center;
+    background-size: cover;
+}
