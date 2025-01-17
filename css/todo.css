@@ -1,0 +1,13 @@
+.todo-container{
+    margin-top: 5px;
+    border: 1px solid black;
+    height: 500px;
+}
+
+.background-green{
+    background-color: green;
+}
+
+.background-pink{
+    background-color: pink;
+}

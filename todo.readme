@@ -1,0 +1,59 @@
+Opdracht: Interactieve To-Do Lijst
+Doel:
+
+Maak een interactieve to-do lijst applicatie waarin gebruikers taken kunnen toevoegen, verwijderen en markeren als voltooid. De applicatie moet gebruik maken van verschillende JavaScript-technieken zoals alerts, prompts, if-statements, loops, objecten, arrays, DOM-manipulatie, localStorage, en functies.
+Stappen:
+
+    HTML Basisstructuur:
+        Maak een eenvoudige HTML-pagina met een invoerveld voor nieuwe taken, een knop om taken toe te voegen, en een lijst om de taken weer te geven.
+
+    CSS Styling:
+        Voeg basis CSS toe om de to-do lijst er netjes uit te laten zien. Gebruik classList om de stijl van voltooide taken aan te passen.
+
+    JavaScript Bestanden:
+        Maak een nieuw JavaScript-bestand en link dit aan je HTML-pagina.
+
+    Gebruikersinvoer:
+        Gebruik een prompt om de gebruiker te vragen een nieuwe taak in te voeren als de invoerveld leeg is.
+        Gebruik een alert om de gebruiker te informeren als de taak succesvol is toegevoegd.
+
+    Taken Toevoegen:
+        Maak een functie die een nieuwe taak toevoegt aan een array van taken.
+        Gebruik querySelector om het invoerveld en de knop te selecteren.
+        Voeg een eventListener toe aan de knop om de taak toe te voegen wanneer erop wordt geklikt.
+        Gebruik innerHTML om de nieuwe taak aan de lijst toe te voegen.
+
+    Taken Weergeven:
+        Maak een functie die alle taken in de array weergeeft in de HTML-lijst.
+        Gebruik querySelectorAll om alle taken te selecteren en weer te geven.
+
+    Taken Verwijderen:
+        Voeg een verwijderknop toe aan elke taak.
+        Gebruik een eventListener om de taak te verwijderen wanneer de knop wordt ingedrukt.
+        Werk de array bij en update de weergave.
+
+    Taken Voltooien:
+        Voeg een functie toe om taken als voltooid te markeren.
+        Gebruik classList om de stijl van voltooide taken aan te passen.
+
+    LocalStorage:
+        Gebruik localStorage om de taken op te slaan zodat ze bewaard blijven bij het herladen van de pagina.
+        Gebruik JSON om de array van taken op te slaan en op te halen.
+
+    Loops en If-statements:
+        Gebruik for- en while-loops om door de array van taken te itereren.
+        Gebruik if-statements om te controleren of een taak al bestaat of voltooid is.
+
+    Objecten en Arrays:
+        Gebruik objecten om taken te definiëren met eigenschappen zoals naam en voltooid.
+        Gebruik arrays om de lijst van taken op te slaan.
+
+    Functies:
+        Maak verschillende functies voor het toevoegen, verwijderen, voltooien en weergeven van taken.
+
+Bonus:
+
+    Voeg een zoekfunctie toe om taken te filteren.
+    Voeg een functie toe om de taken te sorteren op naam of voltooid status.
+
+Veel succes met de opdracht! Als je vragen hebt, laat het me weten.
